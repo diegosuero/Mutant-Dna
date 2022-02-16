@@ -9,18 +9,20 @@ El objetivo del programa es detectar cierta combinacion de letras en un ADN para
 
 se requiere tener maven instalado
 
-
+```
 mvn install
 cd target
 java -jar MutantDna-0.0.1-SNAPSHOT.jar
-
+```
 localhost:8080/mutant/
 
 En el body se debe ingresar la siguiente informacion, que corresponde a un ADN Mutante
+
+```
 {
     "dna" : ["ATAATG", "ATGGGA", "AAGGGG", "ATTGGA", "AAGTAG", "AATGAT"]
 }
-
+```
 De momento no se tiene una version de prueba hosteada, pero se esta trabajando en ello.
 
 
